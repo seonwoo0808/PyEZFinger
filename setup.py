@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="PyEZFinger",
-    version="1.1",
+    version="1.2",
     license='MIT',
     author="seonwoo0808",
     author_email="seonwoo0808@naver.com",

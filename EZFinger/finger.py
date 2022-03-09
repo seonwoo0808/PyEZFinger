@@ -6,7 +6,6 @@ import numpy as np
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import keras
-os.chdir(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 try:    
     model = keras.models.load_model(os.path.abspath(os.path.dirname(__file__)) + '\\finger_model.h5')
 except:
